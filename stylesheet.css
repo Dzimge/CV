@@ -102,7 +102,10 @@ header
     width: 400px;
     height: 400px;
     border-radius: 50%;
+    border-width: 10px;
+    border-color: #fff;
     overflow: hidden; 
+    border-style: solid;
 }
 
 .profile-text .image-box img
@@ -200,7 +203,7 @@ header
  .experience p
  {
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-top: 20px;
     margin-bottom: 30px;
     text-align: left;
@@ -239,7 +242,7 @@ header
     display: flex;
      flex-direction: row;
      margin: 20px 0;
-     font-size: 1.3em;
+     font-size: 1.2em;
      color:#fff;  
  }
 
@@ -290,20 +293,37 @@ header
 {
     width: 60px;  
 }
+.linked img:hover
+{
+    transform: scale(2.1)
+}
 
 .gmail img
 {
     width: 60px;  
 }
 
+.gmail img:hover
+{
+    transform:scale(2.1)
+}
+
 .discord img
 {
     width: 60px;  
+}
+.discord img:hover
+{
+    transform: scale(2.1)
 }
 
 .art img
 {
     width: 60px; 
+}
+.art img:hover
+{
+    transform: scale(2.1);
 }
 
 .hobbies p
@@ -328,7 +348,7 @@ header
     line-height: 1.4; 
 }
 
-@media (max-width: 1000px)
+@media (max-width: 1135px)
 {
     .container
     {
