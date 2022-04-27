@@ -36,6 +36,7 @@ header
     text-align: center;
     font-weight: 600;
     line-height: 1.5;
+    color: rgb(0, 118, 202);;
 }
 
 .header span
@@ -66,12 +67,15 @@ header
 {
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 1.2em;
+    color: rgb(0, 118, 202);
 }
  .container .about h2
 {
-    margin-top: 11%;
+    margin-top: 10%;
     margin-left: 10px;
     margin-right: 10px;
+    color: rgb(0, 118, 202);
 }
 
 .container .left-side
@@ -84,6 +88,42 @@ header
  margin-right: 10px;
 }
 
+/* .container .left-side .skills .line11
+{grid-area:one}
+.container .left-side .skills .line12
+{grid-area:two}
+.container .left-side .skills .line13
+{grid-area:three}
+.container .left-side .skills .line21
+{grid-area:four}
+.container .left-side .skills .line22
+{grid-area:five}
+.container .left-side .skills .line23
+{grid-area:six}
+.container .left-side .skills .line31
+{grid-area:seven}
+
+.container .left-side .skills 
+{
+    display: grid;
+    grid-template-areas:
+    'one two three four' 
+    'five six seven'; 
+} */
+
+.container .left-side .skills img
+{
+    width: 60px;
+
+}
+.container .left-side .skills
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+}
 .profile-text
 {
     position: relative;
