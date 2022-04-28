@@ -395,6 +395,46 @@ header
     line-height: 1.4; 
 }
 
+.vids
+{
+    background-color: #fff;
+    color: rgb(0, 118, 202);
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.vids a
+{
+    justify-self: center;
+    color: rgb(0, 118, 202);
+}
+.vids a:hover
+{
+    color: rgb(1, 192, 244);
+}
+.vids a:hover
+{
+    color: rgb(1, 192, 244);
+}
+
+.CV h3
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 118, 202);
+}
+.CV h3:hover
+{
+    color: rgb(1, 192, 244);
+}
+.CV a:hover
+{
+    color: rgb(1, 192, 244);
+}
+
 @media (max-width: 1135px)
 {
     .container
