@@ -402,7 +402,7 @@ header
     display: grid;
    grid-template-columns: 1fr 1fr;
    text-transform: uppercase;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 
 .vids a
@@ -414,7 +414,7 @@ header
 {
     color: rgb(1, 192, 244);
 }
-.vids a:hover
+.vids h3:hover
 {
     color: rgb(1, 192, 244);
 }
@@ -423,7 +423,7 @@ header
 {
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: rgb(0, 118, 202);
 }
 .CV h3:hover
