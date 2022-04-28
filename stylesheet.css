@@ -25,7 +25,7 @@ header
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
-    
+    margin-bottom: 0;    
 }
 
 .header
@@ -36,7 +36,12 @@ header
     text-align: center;
     font-weight: 600;
     line-height: 1.5;
-    color: #fff;
+    color: rgb(0, 118, 202);
+}
+.header span
+{
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
 
 .job
@@ -59,7 +64,6 @@ header
  margin-left: 50px;
  margin-right: 50px;
  margin-bottom: 50px;
- margin-top: 50px;
  display: grid;
  grid-template-columns: 1fr 2fr; 
  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
@@ -395,7 +399,9 @@ header
 {
     .container
     {
-        margin: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom:10px;
         grid-template-columns: repeat(1,1fr);
     }
 
@@ -403,10 +409,13 @@ header
     {
         margin-left: 10px;
     }
-    .job
+    header
     {
-        justify-self: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top:10px;
     }
+   
     
 }
 
