@@ -147,8 +147,8 @@ header
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     border-width: 10px;
     border-color: #fff;
@@ -280,6 +280,19 @@ header
      text-transform: uppercase;
      font-weight: 600;
  }
+ .year-company .company:hover
+ {
+    color: rgb(179, 233, 248);
+ }
+ .year-company .company
+ {
+     color: rgb(226, 243, 248);
+ }
+ .experience .jobs .year-company a
+ {
+    color: rgb(226, 243, 248);
+}
+
  .experience .jobs .text h3
  {
      text-transform: uppercase;
@@ -427,14 +440,15 @@ header
     margin-bottom: 30px;
     color: rgb(0, 118, 202);
 }
-.CV h3:hover
-{
-    color: rgb(1, 192, 244);
-}
 .CV a:hover
 {
     color: rgb(1, 192, 244);
 }
+.CV h3:hover
+{
+    color: rgb(1, 192, 244);
+}
+
 
 @media (max-width: 1135px)
 {
