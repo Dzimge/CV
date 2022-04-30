@@ -124,14 +124,7 @@ header
     width: 60px;
 
 }
-.container .left-side .skills
-{
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 10px;
-}
+
 .profile-text
 {
     position: relative;
@@ -169,19 +162,31 @@ header
 .profile-text h2
 {
     font-size: 2em;
-    margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
     line-height: 1.4;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .skills
 {
-    position: relative;
     display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;   
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}
+.skills2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%
+}
+.skills2 img
+{
+    width: 60px;
 }
 
 .skills h2
