@@ -183,10 +183,12 @@ header
     flex-direction: row;
     justify-content: space-around;
     width: 100%
+    
 }
 .skills2 img
 {
     width: 60px;
+    padding-top: 10px;
 }
 
 .skills h2
