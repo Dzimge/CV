@@ -21,6 +21,7 @@
     .footer{
         display: none;
     }
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -31,6 +32,7 @@
 
     .profile{
         padding-bottom: 25px;
+        margin-bottom: 10px;
     }
     
     .bigContainer .edu, .bigContainer .jobs{
