@@ -1,0 +1,118 @@
+@media screen and (max-width: 1100px) {
+    .mainContainer {
+        max-width: 800px;
+    }
+
+    .profile
+    {
+        padding-bottom: 385px;
+    }
+
+    .headerContainer {
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .menuBar {
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile{
+        padding-bottom: 25px;
+    }
+    
+    .bigContainer .edu, .bigContainer .jobs{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .menuBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerNav,
+    .headerSocial{
+        display: none;
+    }
+
+    .white p{
+        font-size: 5px;
+    }
+
+    .mainLogo{
+        width: 200px;
+    }
+
+    .big{
+        margin-bottom: 10px;
+    }
+
+    .menuBar i {
+        font-size: 22px;
+    }
+
+    .headerContainer {
+        grid-template-columns: 1fr 10fr;
+        padding: 40px 0;
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+        color: rgb(0, 118, 202);
+        ;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        background: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+        ;
+    }
+    .dropdown-content a {
+        color: rgb(0, 8, 14);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .dropdown-content a:hover {
+        background-color: rgb(179, 233, 248);
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        color: black;
+    }
+
+
+}
